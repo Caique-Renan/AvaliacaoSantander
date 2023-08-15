@@ -1,0 +1,18 @@
+<div class="user-details" *ngIf="user">
+  <img [src]="user.picture" alt="User Picture" />
+  <h2>{{ user.title }} {{ user.firstName }} {{ user.lastName }}</h2>
+  <p><strong>Email:</strong> {{ user.email }}</p>
+  <p><strong>Genero:</strong> {{ user.gender }}</p>
+  <p><strong>Data de nascimento:</strong> {{ user.dateOfBirth | date }}</p>
+  <p><strong>Telefone:</strong> {{ user.phone }}</p>
+  <p><strong>Rua:</strong> {{ user.location.street }}</p>
+  <p><strong>Cidade:</strong> {{ user.location.city }}</p>
+  <p><strong>Estado:</strong> {{ user.location.state }}</p>
+  <p><strong>Pais:</strong> {{ user.location.country }}</p>
+  <p><strong>Timezone:</strong> {{ user.location.timezone }}</p>
+  <p><strong>Registro:</strong> {{ user.registerDate | date }}</p>
+  <p><strong>Ultima alteração:</strong> {{ user.updatedDate | date }}</p>
+
+  <button (click)="deleteUser(user.id)" class="delete-button">Excluir Usuário</button>
+  <button (click)="editUser(user.id)" class="delete-button">Editar Usuário</button>
+</div>

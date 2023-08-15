@@ -1,0 +1,48 @@
+<h2>Create New User</h2>
+<form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+  <label for="title">Titulo:</label>
+  <input type="text" id="title" formControlName="title" required pattern="(mr|ms|mrs|miss|dr)">
+  <br>
+
+  <label for="firstName">Primeiro Nome:</label>
+  <input type="text" id="firstName" formControlName="firstName" required minlength="2" maxlength="50">
+  <br>
+
+  <label for="lastName">Sobrenome:</label>
+  <input type="text" id="lastName" formControlName="lastName" required minlength="2" maxlength="50">
+  <br>
+
+  <label for="gender">Gênero:</label>
+  <input type="text" id="gender" formControlName="gender" required pattern="(male|female|other)">
+  <br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" formControlName="email" required>
+  <br>
+
+  <label for="dateOfBirth">Data de nascimento:</label>
+  <input type="text" id="dateOfBirth" formControlName="dateOfBirth" required>
+  <br>
+
+  <label for="phone">Telefone:</label>
+  <input type="text" id="phone" formControlName="phone" required>
+  <br>
+
+  <label for="street">Rua:</label>
+  <input type="text" id="street" formControlName="street">
+  <br>
+
+  <label for="city">Cidade:</label>
+  <input type="text" id="city" formControlName="city">
+  <br>
+
+  <label for="state">Estado:</label>
+  <input type="text" id="state" formControlName="state">
+  <br>
+
+  <label for="country">Pais:</label>
+  <input type="text" id="country" formControlName="country">
+  <br>
+  
+  <button type="submit">Criar Usuário</button>
+</form>

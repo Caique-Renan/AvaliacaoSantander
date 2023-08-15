@@ -1,0 +1,48 @@
+/* user-edit.component.css */
+
+/* Estilos gerais para o formulário */
+h2 {
+    color: #00447c; /* Cor principal do Santander */
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+  }
+  
+  /* Estilos para as labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #00447c; /* Cor principal do Santander */
+  }
+  
+  /* Estilos para os campos de entrada */
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilo para o botão de salvar */
+  button[type="submit"] {
+    background-color: #00447c; /* Cor principal do Santander */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #002755; /* Cor secundária do Santander */
+  }
+  

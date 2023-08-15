@@ -1,0 +1,29 @@
+/* menu-bar.component.css */
+
+/* Estilos para a barra de menu */
+nav {
+  background-color: #da291c; /* Cor de fundo da barra de menu */
+  padding: 10px 20px; /* Espaçamento interno */
+}
+
+ul {
+  list-style: none; /* Remover marcadores de lista */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Fazer os itens da lista se alinharem horizontalmente */
+}
+
+li {
+  margin-right: 20px; /* Espaçamento entre os itens da lista */
+}
+
+a {
+  color: #ffffff; /* Cor do texto dos links */
+  text-decoration: none; /* Remover sublinhado dos links */
+  font-weight: bold; /* Texto em negrito */
+}
+
+/* Efeito de hover nos links */
+a:hover {
+  text-decoration: underline; /* Sublinhar o link no hover */
+}

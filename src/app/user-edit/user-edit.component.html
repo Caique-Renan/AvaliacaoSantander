@@ -1,0 +1,38 @@
+<h2>Edit User</h2>
+<form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+  <label for="title">Title:</label>
+  <input type="text" id="title" formControlName="title" required><br>
+
+  <label for="firstName">First Name:</label>
+  <input type="text" id="firstName" formControlName="firstName" required><br>
+
+  <label for="lastName">Last Name:</label>
+  <input type="text" id="lastName" formControlName="lastName" required><br>
+
+  <label for="gender">Gender:</label>
+  <input type="text" id="gender" formControlName="gender" required><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" formControlName="email" required><br>
+
+  <label for="dateOfBirth">Date of Birth:</label>
+  <input type="text" id="dateOfBirth" formControlName="dateOfBirth" required><br>
+
+  <label for="phone">Phone:</label>
+  <input type="text" id="phone" formControlName="phone" required><br>
+
+  <label for="street">Street:</label>
+  <input type="text" id="street" formControlName="street"><br>
+
+  <label for="city">City:</label>
+  <input type="text" id="city" formControlName="city"><br>
+
+  <label for="state">State:</label>
+  <input type="text" id="state" formControlName="state"><br>
+
+  <label for="country">Country:</label>
+  <input type="text" id="country" formControlName="country"><br>
+
+
+  <button type="submit">Salvar Alterações</button>
+</form>

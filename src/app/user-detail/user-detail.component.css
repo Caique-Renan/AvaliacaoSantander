@@ -1,0 +1,55 @@
+/* user-detail.component.css */
+
+.user-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-align: center; /* Centralizar o conteúdo na horizontal */
+  } 
+  
+  .user-details img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .user-details h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #00447c;
+  }
+  
+  .user-details p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .user-details strong {
+    font-weight: bold;
+    color: #00447c;
+  }
+  
+  .user-details a {
+    color: #00447c;
+    text-decoration: none;
+  }
+  
+  .user-details a:hover {
+    text-decoration: underline;
+  }
+  .delete-button {
+    padding: 10px 20px;
+    background-color: #0070A4;
+    color: #fff;
+    border: 1px solid #0000;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .delete-button:hover {
+    background-color: #002044; /* Cor de fundo mais escura no hover */
+    color: #ffffff; /* Cor do texto no hover */
+  }
+  

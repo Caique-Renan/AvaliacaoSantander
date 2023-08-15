@@ -1,0 +1,15 @@
+<table>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Sobrenome</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of users">
+      <td><a [routerLink]="['/user', user.id]" class="name-link">{{ user.firstName }}</a></td>
+      <td><a [routerLink]="['/user', user.id]" class="name-link">{{ user.lastName }}</a></td>
+    </tr>
+  </tbody>
+</table>
+<a routerLink="/create" class="create-link">Criar Novo Usuário</a>

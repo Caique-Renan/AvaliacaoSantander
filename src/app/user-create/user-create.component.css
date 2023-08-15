@@ -1,0 +1,55 @@
+/* user-create.component.css */
+
+/* Estilo para o formulário */
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para os campos de entrada */
+  input {
+    width: 240px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilo para o botão */
+  button {
+    padding: 10px 20px;
+    background-color: #0070A4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para os links */
+  a {
+    color: #0070A4;
+    text-decoration: none;
+  }
+  
+  /* Estilo para a tabela de usuários */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #0070A4;
+    color: #fff;
+  }
+  

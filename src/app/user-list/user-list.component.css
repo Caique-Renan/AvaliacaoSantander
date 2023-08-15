@@ -1,0 +1,62 @@
+/* user-list.component.css */
+
+/* Estilo para a tabela */
+table {
+  flex: auto;
+  width: 500px;
+  border-collapse: collapse;
+  margin: 50px 0;
+  font-family: Arial, sans-serif;
+  margin-left: 400px;
+}
+
+/* Estilo para o cabeçalho da tabela */
+th {
+  background-color: #da291c;
+  color: white;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+/* Estilo para as células da tabela */
+td {
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+}
+
+/* Estilo para as células alternadas (para efeito de zebra) */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Estilo para as células quando passa o mouse por cima */
+tr:hover {
+  background-color: #ffc600;
+  transition: background-color 0.3s;
+}
+
+.name-link {
+  color: black; /* Altere a cor conforme necessário */
+  text-decoration: none; /* Remove o sublinhado */
+  cursor: pointer; /* Altera o cursor ao passar o mouse */
+}
+
+/* component.css */
+
+/* Estilo para o link de criação de novo usuário */
+.create-link {
+  display: inline-block; /* Exibir como um bloco inline */
+  padding: 10px 20px; /* Espaçamento interno */
+  background-color: #005596; /* Cor de fundo do botão */
+  color: #ffffff; /* Cor do texto do botão */
+  text-decoration: none; /* Remover sublinhado */
+  border-radius: 5px; /* Borda arredondada */
+  font-weight: bold; /* Texto em negrito */
+  transition: background-color 0.3s, color 0.3s; /* Transição suave */
+}
+
+/* Efeito de hover no botão */
+.create-link:hover {
+  background-color: #002044; /* Cor de fundo mais escura no hover */
+  color: #ffffff; /* Cor do texto no hover */
+}
