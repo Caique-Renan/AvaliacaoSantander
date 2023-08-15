@@ -1,7 +1,10 @@
 <<<<<<< Updated upstream
 # AvaliacaoSantander
+<<<<<<< Updated upstream
 =======
 # AvaliacaoSantander
+=======
+>>>>>>> Stashed changes
 
 ## Angular User Management App
 
@@ -56,4 +59,7 @@ Você também tem a opção de criar um novo usuário. Preencha os detalhes nece
 ## Autor
 
 Caique Renan Alves
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
