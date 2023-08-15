@@ -1,13 +1,5 @@
-<<<<<<< Updated upstream
+
 # AvaliacaoSantander
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-# AvaliacaoSantander
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 
 ## Angular User Management App
 
