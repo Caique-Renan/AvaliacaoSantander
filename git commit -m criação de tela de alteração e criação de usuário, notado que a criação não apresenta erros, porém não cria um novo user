@@ -1,0 +1,11 @@
+[33mcommit b1c5b8c37c90a0ddabc75d2772792465d41fd44e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Caique Renan Alves <90140142+Caique-Renan@users.noreply.github.com>
+Date:   Mon Aug 14 16:57:20 2023 -0300
+
+    Create README.md
+
+[33mcommit 25e838db6ab77227562ab68a5e64a9fc6a5a0234[m
+Author: CrsAlves <caique.renan21@gmail.com>
+Date:   Mon Aug 14 16:43:33 2023 -0300
+
+    Inicio do frontEnd, adicao de tela com todos os usuarios, detalhamento de usuário e funcao delete
