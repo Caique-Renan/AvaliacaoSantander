@@ -1,8 +1,11 @@
 <<<<<<< Updated upstream
 # AvaliacaoSantander
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 # AvaliacaoSantander
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 
@@ -60,6 +63,9 @@ Você também tem a opção de criar um novo usuário. Preencha os detalhes nece
 
 Caique Renan Alves
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
